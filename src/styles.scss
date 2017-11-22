@@ -1,3 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'variables'; 
 @import '../node_modules/bootstrap/scss/bootstrap';
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+.content-page {
+    padding-top: 4rem;
+}
